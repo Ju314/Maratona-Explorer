@@ -17,7 +17,7 @@ body {
 }
 
 #container {
-  margin-top: 10rem;
+  margin-top: 5rem;
   width: 80%;
   max-width: 40rem;
   margin-inline: auto;
@@ -69,4 +69,16 @@ img:hover {
   transform: rotate(360deg);
   transition: transform 0.8s ease-in-out;
   cursor: pointer;
+}
+
+#answer {
+  margin-top: 3rem;
+  transition: opacity 1s;
+}
+
+#answer div {
+  font-size: 1.6rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 1rem;
 }
